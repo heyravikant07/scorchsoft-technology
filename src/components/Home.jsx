@@ -17,7 +17,7 @@ function Home() {
     <div>
         <div className='font-sans'>
         <Header />
-        <main className='mt-16'>
+        <main>
           <HeroSection />
           <Features />
           <About />

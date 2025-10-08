@@ -1,12 +1,14 @@
 import React from "react";
+import Mainlogo from "../../assets/mainlogo.webp"
 
 export default function Header() {
   return (
     <header className="bg-[#7e0c0b] backdrop-blur sticky top-0 z-100 shadow-sm ">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <div className="w-8 h-8 bg-red-600 rounded flex items-center justify-center text-white font-bold">S</div>
-          <span className="text-lg font-semibold text-white">SCORCHSOFT</span>
+          {/* <div className="w-8 h-8 bg-red-600 rounded flex items-center justify-center text-white font-bold">S</div> */}
+          {/* <span className="text-lg font-semibold text-white">SCORCHSOFT</span> */}
+          <img src={Mainlogo} alt="scorchsoft" className="w-35 h-10" />
         </div>
         <nav className="hidden md:flex items-center gap-6 text-white">
           <a href="#services" className="hover:text-red-600">Services</a>
