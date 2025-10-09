@@ -1,21 +1,22 @@
 import React from 'react';
-import HandPreview from "../../assets/handpng.png"
+import HandPreview from "../../../assets/handpng.png"
 
 const ServicepageCard = () => {
   return (
+    <>
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-[#7e0c0b] to-[#b51c1a] text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Services</h1>
-          <p className="text-xl max-w-2xl mx-auto text-[#FFFFFFA1]">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fadeInDown ">Services</h1>
+          <p className="text-xl max-w-2xl mx-auto text-[#FFFFFFA1] animate-fadeInDown ">
             Our app development services enable various stages of your app development journey from startups to established brands.
           </p>
         </div>
       </section>
 
       {/* Services Grid */}
-      <section id="services" className="py-16 bg-gray-50">
+      <section  className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="font-s text-center mb-12 text-[#23231E]">Please contact us or request a Free Quote to discuss your needs with a friendly member of our team.</h2>
           
@@ -207,6 +208,41 @@ const ServicepageCard = () => {
         </div>
       </section>
     </div>
+
+          <style>
+        {`
+          @keyframes fadeInDown {
+            0% {
+              opacity: 0;
+              transform: translateY(-20px);
+            }
+            100% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+          @keyframes fadeInUp {
+            0% {
+              opacity: 0;
+              transform: translateY(20px);
+            }
+            100% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+          .animate-fadeInDown {
+            animation: fadeInDown 1s ease forwards;
+          }
+          .animate-fadeInUp {
+            animation: fadeInUp 1s ease forwards;
+          }
+          .animation-delay-2000 {
+            animation-delay: 2s;
+          }
+        `}
+      </style>
+      </>
   );
 };
 

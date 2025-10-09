@@ -11,13 +11,13 @@ import Clients from './homepage/Clients'
 import Testimonials from './homepage/Testimonials'
 import Blog from './homepage/Blog'
 import Footer from './global/Footer'
-import ServicepageCard from './servicepage/ServicepageCard'
+import ServicepageCard from './pages/servicepage/ServicepageCard'
 
 function Home() {
   return (
     <div>
-        <div className='font-sans'>
-        <Header />
+        {/* <div className='font-sans'> */}
+        {/* <Header /> */}
         <main>
           <HeroSection />
           <Features />
@@ -30,10 +30,10 @@ function Home() {
           <Testimonials />
           <Blog />
         </main>
-        <ServicepageCard />
-        <Footer />
+        {/* <ServicepageCard /> */}
+        {/* <Footer /> */}
     </div>
-    </div>
+    // </div>
   )
 }
 

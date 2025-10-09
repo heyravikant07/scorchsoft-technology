@@ -9,7 +9,7 @@ const services = [
 ];
 function ServicesSection() {
   return (
-     <section id="services" className="py-10 bg-gray-50">
+     <section className="py-10 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <h1 className='text-1.5xl text-red-500 text-center'>OUR SERVICES</h1>
         <h3 className="text-2xl font-bold text-center">Solutions & Focus Areas</h3>
