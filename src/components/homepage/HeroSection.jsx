@@ -12,7 +12,7 @@ function HeroSection() {
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">Modern IT & Tech Service Solutions</h1>
           <p className="mt-4 text-gray-200 max-w-xl">We deliver tailored IT solutions — cloud, security, software and managed services to help your business scale.</p>
           <div className="mt-6 flex gap-4">
-            <a href="#contact" className="bg-red-600 hover:bg-white hover:text-red-600 px-5 py-3 rounded-md font-semibold">Contact Us</a>
+            <a href="/Contact" className="bg-red-600 hover:bg-white hover:text-red-600 px-5 py-3 rounded-md font-semibold">Contact Us</a>
             <button className="border border-white px-5 py-3 font-bold rounded-md">Watch Video</button>
           </div>
         </div>
