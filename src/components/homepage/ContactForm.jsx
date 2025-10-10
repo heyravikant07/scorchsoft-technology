@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactForm({ closeModal }) {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8">
         <div className="space-y-6 bg-white p-8 rounded-xl shadow-lg text-red-900">
           <h3 className="text-2xl font-bold">Please Contact Us Now</h3>

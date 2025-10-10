@@ -5,7 +5,7 @@ const posts = [
   {title: "Digital Conference of IT Tech", date: "Feb 8, 2024", img: "/blog3.jpg"},
 ];
 
-export default function Blog(){
+export default function BlogSection(){
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-6">

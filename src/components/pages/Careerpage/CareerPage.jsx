@@ -262,6 +262,40 @@ const CareerPage = () => {
           )}
         </div>
       </section>
+
+      <style>
+        {`
+          @keyframes fadeInDown {
+            0% {
+              opacity: 0;
+              transform: translateY(-20px);
+            }
+            100% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+          @keyframes fadeInUp {
+            0% {
+              opacity: 0;
+              transform: translateY(20px);
+            }
+            100% {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
+          .animate-fadeInDown {
+            animation: fadeInDown 1s ease forwards;
+          }
+          .animate-fadeInUp {
+            animation: fadeInUp 1s ease forwards;
+          }
+          .animation-delay-2000 {
+            animation-delay: 2s;
+          }
+        `}
+      </style>
     </div>
   );
 };

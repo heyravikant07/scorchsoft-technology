@@ -17,6 +17,7 @@ export default function Header() {
     {name:"Contact", Link: '/Contact'},
     {name:"About", Link: '/About'},
     {name:"FAQ",Link:'/FAQ'},
+    {name:"Blog",Link:'/Blog'},
     {name:"Careers",Link:'/Careers'}
   ]
 

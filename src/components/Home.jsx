@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './global/Header'
+// import Header from './global/Header'
 import HeroSection from './homepage/HeroSection'
 import Features from './homepage/Features'
 import About from './homepage/About'
@@ -8,10 +8,9 @@ import Projects from './homepage/Projects'
 import CTA from './homepage/CTA'
 import ContactForm from './homepage/ContactForm'
 import Clients from './homepage/Clients'
-import Testimonials from './homepage/Testimonials'
-import Blog from './homepage/Blog'
-import Footer from './global/Footer'
-import ServicepageCard from './pages/servicepage/ServicepageCard'
+import Blog from './homepage/BlogSection'
+// import Footer from './global/Footer'
+// import ServicepageCard from './pages/servicepage/ServicepageCard'
 
 function Home() {
   return (
@@ -27,7 +26,6 @@ function Home() {
           <CTA />
           <ContactForm />
           <Clients />
-          <Testimonials />
           <Blog />
         </main>
         {/* <ServicepageCard /> */}
