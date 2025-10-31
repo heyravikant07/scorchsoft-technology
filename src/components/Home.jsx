@@ -8,7 +8,6 @@ import Projects from './homepage/Projects'
 import CTA from './homepage/CTA'
 import ContactForm from './homepage/ContactForm'
 import Clients from './homepage/Clients'
-import Blog from './homepage/BlogSection'
 // import Footer from './global/Footer'
 // import ServicepageCard from './pages/servicepage/ServicepageCard'
 
@@ -26,7 +25,6 @@ function Home() {
           <CTA />
           <ContactForm />
           <Clients />
-          <Blog />
         </main>
         {/* <ServicepageCard /> */}
         {/* <Footer /> */}
